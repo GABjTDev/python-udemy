@@ -1,12 +1,15 @@
 """
 Ejemplo de acceso a variables de entorno y al identificador del proceso.
 
-Uso básico:
-    python Seccion5:System_SO/os_getenv.py
+Uso básico (ejecutando el comando desde esta carpeta):
+    python3 os_getenv.py
 
-También se pueden definir variables solo para esta ejecución (Linux/macOS):
-    OTRA_VAR="un valor" JAVA_HOME_II="/ruta/a/java" \
-        python Seccion5:System_SO/os_getenv.py
+Para definir variables solo durante esta ejecución (Linux/macOS), se escriben
+antes del comando de Python:
+    OTRA_VAR="un valor" JAVA_HOME_II="/ruta/a/java" python3 os_getenv.py
+
+Si se escribieran después de ``os_getenv.py``, Python las recibiría como
+argumentos del script y ``os.getenv()`` no podría leerlas.
 
 En PowerShell se definen antes de ejecutar el archivo:
     $env:OTRA_VAR = "un valor"

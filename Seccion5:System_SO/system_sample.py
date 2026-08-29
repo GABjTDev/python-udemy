@@ -1,14 +1,14 @@
 """
 Ejemplo de salida estándar, salida de error, excepciones y códigos de salida.
 
-Uso:
-    python Seccion5:System_SO/system_sample.py
+Uso (ejecutando el comando desde esta carpeta):
+    python3 system_sample.py
 
 El código de salida puede consultarse justo después de ejecutarlo:
-    python Seccion5:System_SO/system_sample.py
+    python3 system_sample.py
     echo $?                 # Linux/macOS
 
-En PowerShell se consulta con:
+En PowerShell, después de ejecutar el script, se consulta con:
     $LASTEXITCODE
 """
 

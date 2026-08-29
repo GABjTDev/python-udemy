@@ -1,10 +1,13 @@
 """
 Muestra información del sistema operativo, Python y los argumentos recibidos.
 
-Este ejemplo accede directamente a los argumentos 1 a 6, por lo que debe
-ejecutarse con al menos seis argumentos para evitar un IndexError:
+Uso (ejecutando el comando desde esta carpeta):
 
-    python Seccion5:System_SO/platform_sample.py uno dos tres cuatro cinco seis
+    python3 platform_sample.py uno dos tres cuatro cinco seis
+
+Los valores escritos después de ``platform_sample.py`` son los argumentos del
+script. Este ejemplo accede directamente a las posiciones 1 a 6, por lo que se
+deben enviar al menos seis argumentos para evitar un ``IndexError``.
 
 En ``sys.argv``, la posición 0 contiene el nombre/ruta del script y las
 posiciones siguientes contienen los argumentos escritos en la terminal.
