@@ -1,5 +1,6 @@
 import main
 
-user = 'Gabriel'
+user: str = 'Andres'
 
-print(f"Hello, {user}!")
+print(f'Hola que tal {user}')
+main.sayHello('Andres')
